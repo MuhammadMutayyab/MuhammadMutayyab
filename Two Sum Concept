@@ -1,0 +1,23 @@
+// TwoSum Concept
+const twoSum = (nums, target) => {
+  for (
+  let i = 0; 
+  i < nums.length;
+  i++
+  ) {
+    for (
+        let j = i ;
+        j < nums.length;
+        j++) {
+      if (nums[i] + nums[j] === target) {
+        return [i, j];
+      }
+    }
+  }
+}
+answer = twoSum([3,5, 2, -4, 8, 11], 7);  
+console.log(answer)
+
+//output
+
+[ 1, 2 ]
