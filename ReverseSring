@@ -1,0 +1,9 @@
+//Reverse String Concept
+
+const reverseString = (value) => value.split("").reverse().join("");
+const answer = reverseString("Mutayyab");
+console.log(answer)
+
+// ouput
+
+bayyatuM
